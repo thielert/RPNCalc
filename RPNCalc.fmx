@@ -2,8 +2,8 @@ object Form_RPNCalc: TForm_RPNCalc
   Left = 0
   Top = 0
   Caption = 'RPN Calculator'
-  ClientHeight = 616
-  ClientWidth = 399
+  ClientHeight = 600
+  ClientWidth = 400
   StyleBook = StyleBook1
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -13,9 +13,14 @@ object Form_RPNCalc: TForm_RPNCalc
   DesignerMasterStyle = 0
   object GridPanelLayout1: TGridPanelLayout
     Align = Bottom
-    Position.Y = 296.000000000000000000
-    Size.Width = 399.000000000000000000
-    Size.Height = 320.000000000000000000
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 245.000000000000000000
+    Size.Width = 390.000000000000000000
+    Size.Height = 350.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     ColumnCollection = <
@@ -146,22 +151,22 @@ object Form_RPNCalc: TForm_RPNCalc
       end>
     RowCollection = <
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end
       item
-        Value = 16.666666666666670000
+        Value = 16.666666666666660000
       end>
     object Button_ShiftDown: TButton
       Align = Client
@@ -170,8 +175,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 21
       Text = 'Shift Down'
@@ -185,8 +190,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 19
       Text = 'Swap'
@@ -200,8 +205,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 17
       Text = 'CLR'
@@ -215,8 +220,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 15
       Text = '/'
@@ -230,8 +235,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 18
       Text = 'CLA'
@@ -245,8 +250,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 16
       Text = '+/-'
@@ -260,8 +265,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 96.666671752929690000
+      Size.Width = 87.500000000000000000
+      Size.Height = 106.666671752929700000
       Size.PlatformDefault = False
       TabOrder = 0
       Text = 'Enter'
@@ -274,8 +279,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 189.500000000000000000
-      Size.Height = 43.333343505859380000
+      Size.Width = 185.000000000000000000
+      Size.Height = 48.333343505859380000
       Size.PlatformDefault = False
       StyleLookup = 'Button_0Style1'
       TabOrder = 1
@@ -290,8 +295,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 20
       Text = 'Shift Up'
@@ -305,8 +310,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333332061767580000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333332061767580000
       Size.PlatformDefault = False
       TabOrder = 14
       Text = 'X'
@@ -320,8 +325,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333335876464840000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333335876464840000
       Size.PlatformDefault = False
       TabOrder = 8
       Text = '7'
@@ -335,8 +340,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333335876464840000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333335876464840000
       Size.PlatformDefault = False
       TabOrder = 9
       Text = '8'
@@ -350,8 +355,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333335876464840000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333335876464840000
       Size.PlatformDefault = False
       TabOrder = 10
       Text = '9'
@@ -365,8 +370,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333335876464840000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333335876464840000
       Size.PlatformDefault = False
       TabOrder = 13
       Text = '-'
@@ -380,8 +385,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 5
       Text = '4'
@@ -395,8 +400,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 6
       Text = '5'
@@ -410,8 +415,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 7
       Text = '6'
@@ -425,8 +430,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 12
       Text = '+'
@@ -440,8 +445,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       StyleLookup = 'Button_1Style1'
       TabOrder = 2
@@ -456,8 +461,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 3
       Text = '2'
@@ -471,8 +476,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333328247070310000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333328247070310000
       Size.PlatformDefault = False
       TabOrder = 4
       Text = '3'
@@ -486,8 +491,8 @@ object Form_RPNCalc: TForm_RPNCalc
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Size.Width = 89.750000000000000000
-      Size.Height = 43.333343505859380000
+      Size.Width = 87.500000000000000000
+      Size.Height = 48.333343505859380000
       Size.PlatformDefault = False
       StyleLookup = 'Button_DotStyle1'
       TabOrder = 11
@@ -500,9 +505,12 @@ object Form_RPNCalc: TForm_RPNCalc
     Align = Client
     EnableDragHighlight = False
     HitTest = False
+    Margins.Left = 9.000000000000000000
+    Margins.Top = 9.000000000000000000
+    Margins.Right = 9.000000000000000000
     RotationAngle = 180.000000000000000000
-    Size.Width = 399.000000000000000000
-    Size.Height = 296.000000000000000000
+    Size.Width = 382.000000000000000000
+    Size.Height = 231.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
     TabStop = False
@@ -512,8 +520,8 @@ object Form_RPNCalc: TForm_RPNCalc
     DefaultItemStyles.ItemStyle = ''
     DefaultItemStyles.GroupHeaderStyle = ''
     DefaultItemStyles.GroupFooterStyle = ''
-    Viewport.Width = 395.000000000000000000
-    Viewport.Height = 292.000000000000000000
+    Viewport.Width = 378.000000000000000000
+    Viewport.Height = 227.000000000000000000
   end
   object StyleBook1: TStyleBook
     Styles = <
@@ -794,6 +802,6 @@ object Form_RPNCalc: TForm_RPNCalc
           6E2E4C696E6B0E0000000000}
       end>
     Left = 336
-    Top = 232
+    Top = 184
   end
 end
