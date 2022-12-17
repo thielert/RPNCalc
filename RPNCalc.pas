@@ -120,8 +120,7 @@ procedure TForm_RPNCalc.FormKeyDown(Sender: TObject; var Key: Word;
 begin
   if Key = vkEscape then
   begin
-    Focused := Button_Enter; // Is this the best way to clear focus?
-    Button_Enter.ResetFocus();
+    Form_RPNCalc.SetFocused(nil);
   end
   else if CharInSet(KeyChar, ['0' .. '9']) then
   begin

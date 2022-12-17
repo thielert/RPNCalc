@@ -1,15 +1,18 @@
 object Form_RPNCalc: TForm_RPNCalc
-  Left = 0
-  Top = 0
+  Left = 847
+  Top = 187
   Caption = 'RPN Calculator'
   ClientHeight = 600
   ClientWidth = 400
+  Position = Designed
   StyleBook = StyleBook1
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   OnKeyDown = FormKeyDown
+  Left = 847
+  Top = 187
   DesignerMasterStyle = 0
   object GridPanelLayout1: TGridPanelLayout
     Align = Bottom
@@ -151,22 +154,22 @@ object Form_RPNCalc: TForm_RPNCalc
       end>
     RowCollection = <
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end
       item
-        Value = 16.666666666666660000
+        Value = 16.666666666666670000
       end>
     object Button_ShiftDown: TButton
       Align = Client
